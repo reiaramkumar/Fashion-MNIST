@@ -1,9 +1,0 @@
-name,hidden_size,activation,dropout,batch_norm,optimizer,lr,epochs,params,test_acc,val_acc,macro_f1,train_time
-mlp_base,[128],relu,0.0,False,adam,0.001,20,101770,89.2,89.52,0.8923,171.6
-mlp_case_1,[256],relu,0.0,False,adam,0.001,20,203530,89.51,89.5,0.8952,169.2
-mlp_case_2,"[256, 128]",relu,0.0,False,adam,0.001,20,235146,89.45,89.38,0.8951,258.7
-mlp_case_3,"[256, 128]",relu,0.3,False,adam,0.001,20,235146,89.45,89.82,0.8943,166.2
-mlp_case_4,"[256, 128]",relu,0.3,True,adam,0.001,20,235914,89.76,89.97,0.8973,488.3
-mlp_case_5,"[256, 128]",gelu,0.3,False,adam,0.001,20,235146,89.59,90.12,0.8954,205.6
-mlp_case_6,"[256, 128]",relu,0.3,False,sgd,0.01,20,235146,85.91,86.55,0.8584,149.6
-mlp_best,"[512, 256, 128]",gelu,0.3,True,adamw,0.001,20,569226,90.14,90.28,0.9012,203.3
